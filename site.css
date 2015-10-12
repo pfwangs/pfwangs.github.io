@@ -1,0 +1,79 @@
+body {
+    color: black;
+    background-image: url("Interstellar.png");
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 100px;}
+
+.nav{
+    right: 0;
+    left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: right;}
+
+.navbar-item{
+    font-size: 1.4rem;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    float: right;}
+
+.navbar-list{
+    list-style: none;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    display: inline-block;}
+
+.pagination ul li a{
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 10px 20px;}
+
+.paginationul ul li{
+    list-style: none;}
+
+.post-header{
+    text-align: center;
+    color: #3d3d3d;}
+
+.post-meta{
+    margin-bottom: 1.0rem;}
+
+.post-content{
+    text-align: center;}
+
+.post.container{
+    position: relative;
+    width: 100%;
+    max-width:  960px;
+    margin:0 auto;
+    padding: 0 auto;}
+
+body{
+    font-size: 1.4em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "HelveticaNeue";
+    color: blue;
+    height: 100%;
+    margin: 0;}
+
+div{
+    display:block;}
+
+
+article{
+    display: block;
+}
+
+.six.columns{
+    width: 100%;
+    float: center;
+}
