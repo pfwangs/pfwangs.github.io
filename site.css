@@ -1,14 +1,23 @@
 body {
-    color: white;
-    background-color: white;
-    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "HelveticaNeue";
+    color: blue;
+    height: 100%;
+    margin: 2.5rem;
 }
+
+p{
+    margin: 2.5rem;
+}
+
 .rocketship{
     height: 90%;
     width: 100%;
     position: absolute;
     background-position:  750px;
-    background-image:  url(background.svg);
+    background-image:  url(//background.svg);
     background-repeat: no-repeat;    
 }
 .space{
@@ -20,17 +29,23 @@ body {
     background-size: cover;
     text-align: center;
 }
+
 h1{
     color: white;
-    font-size: 100px;}
+    font-size: 100px;
+}
+
 h2{
     color: white;
     font-size: 500px;
-    font-family: "Verdana";}
+    font-family: "Verdana";
+}
+
 .nav{
     
     display: block;
-    text-align: right;}
+    text-align: right;
+}
 
 .navbar-item{
     margin-top: 20px; 
@@ -39,44 +54,41 @@ h2{
     display: inline-block;
     margin-bottom: 0;
     margin-left: 2rem;
-    float: right;}
+    float: right;
+}
     
 .navbar-list{
      
     list-style: none;
     margin-bottom: 0;
     margin-right: 3rem;
-    display: inline-block;}
+    display: inline-block;
+}
 
 .post-header{
     text-align: center;
-    color: #3d3d3d;}
+    color: #3d3d3d;
+}
 
 .post-meta{
-    margin-bottom: 1.0rem;}
+    margin-bottom: 1.0rem;
+}
 
 .post-content{
-    text-align: center;}
+    text-align: center;
+}
 
 .post.container{
     position: relative;
     width: 100%;
     max-width:  960px;
     margin:0 auto;
-    padding: 0 auto;}
-
-body{
-    font-size: 1.4em;
-    line-height: 1.6;
-    font-weight: 400;
-    font-family: "HelveticaNeue";
-    color: blue;
-    height: 100%;
-    margin: 0;}
+    padding: 0 auto;
+}
 
 div{
-    display:block;}
-
+    display:block;
+}
 
 article{
     display: block;
@@ -96,14 +108,63 @@ article{
     font-family: Helvetica; 
     font-size: 42px;
 }
+
 .index-navbar-items >a{
     font-size: 1.4em;
     color: orange ;
     font-family: Helvetica ; 
 }
+
 .divider{
     margin: 50px 0px 50px 0;
     height: 5px;
     width: 450px;
     background: black;
+}
+
+div.rocket {
+    position: absolute;
+    bottom: 10px;
+    left: 20px; 
+    -webkit-transition: 3s ease-in;
+    -moz-transition: 3s ease-in;
+    -o-transition: 3s ease-in;
+    transition: 3s ease-in;
+}
+
+div.rocket div {
+    width: 500px;
+    height: 500px;
+    background: url(background.svg) no-repeat;
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+
+body:hover div.rocket {
+    -webkit-transform: translate(540px,-200px);
+    -moz-transform: translate(540px,-200px);
+    -o-transform: translate(540px,-200px);
+    -ms-transform: translate(540px,-200px);
+    transform: translate(540px,-200px);
+}
+
+  body:hover div.rocket div {
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
+}
+
+.pagination{
+    width: 100%;
+    clear: both;
+    display: table;
+    line-height: 1.6;
+}
+
+.next{
+    float: right;
 }
