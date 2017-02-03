@@ -12,26 +12,45 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <style type="text/css">
-  
     h2{
       text-align: center;
       font-size: 30px;
       font-weight: normal; 
       color: black;
       font-family: "Lato"; 
-      
     }
     h1{
-      text-align: center;}
-    
+      text-align: center;
+    }
     p{
-      margin: 1.5rem;}
+      margin: 1.5rem;
+    }
     strong{
       font-weight: bold;
     }
     body{
-      background: white}
-
+      background: white
+    }
+    .post-header{
+    text-align: center;
+    color: #3d3d3d;
+    }
+    .post-meta{
+    margin-bottom: 1.0rem;
+    }
+    .post-content{
+    text-align: center;
+    }
+    .post.holder{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    .holder {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
+    }
   </style>
 </head>
 
@@ -39,17 +58,16 @@
   <header class="site-header">
     <div class="nav">
       <ul class="navbar-list">
-        <li class="navbar-item index-navbar-items"><a href="Project.html">Projects</a></li>
-        <li class="navbar-item index-navbar-items"><a href="About.html">About</a></li>
-        <li class="navbar-item index-navbar-items"><a href="Blog.html">Blog</a></li>
-        <li class="navbar-item index-navbar-items"><a href="Index.html">Home</a></li>
         <li class="navbar-item index-navbar-items"><a href="FAQ.html">FAQ</a></li>
+        <li class="navbar-item index-navbar-items"><a href="Blog.html">Blog</a></li>
+        <li class="navbar-item index-navbar-items"><a href="About.html">About</a></li>
+        <li class="navbar-item index-navbar-items"><a href="index.html">Home</a></li>
       </ul>
     </div> 
   </header>
     
-  <main class="page-content container">
-    <div class="post container">
+  <main class="page-content holder">
+    <div class="post holder">
       <div class="row">
         <div class="six columns">
           <h1 class="blog header">
@@ -67,14 +85,14 @@
                 </div>
             </a>
       
-            <a class="work" href="Food">
+            <a class="work" href="food.html">
               <img alt="background" class="work-img" src="nom.jpg">
               <div class="work-cover">
                   <h2>Food</h2>
                 </div>
             </a>
 
-            <a class="work" href="Food">
+            <a class="work" href="movie.html">
               <img alt="background" class="work-img" src="stellar.jpg">
                 <div class="work-cover">
                   <h2>Media</h2>
