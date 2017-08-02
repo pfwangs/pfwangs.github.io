@@ -11,6 +11,21 @@ body {
 p{
     margin: 2.5rem;
 }
+img{
+    width: 100%;
+}
+@media(max-width: 500px){
+.set {
+    max-width: 100%;
+}}
+
+
+.set{
+    width: 100%;
+    display: block;
+    float: center;
+}
+
 
 .rocketship{
     height: 90%;
@@ -97,7 +112,6 @@ article{
 .six.columns{
     width: 100%;
     float: center;
-
 }
 
 #title{
@@ -290,7 +304,4 @@ a {
 }
 .snippet-block .snippet {
     margin-bottom: 0;
-}
-div {
-    display: block;
 }
